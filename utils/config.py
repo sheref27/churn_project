@@ -9,7 +9,7 @@ load_dotenv(override=True)
 APP_NAME = os.getenv('APP_NAME')
 VERSION = os.getenv('VERSION')
 SECRET_KEY_TOKEN = os.getenv('SECRET_KEY_TOKEN')
-print("SECRET_KEY_TOKEN =", SECRET_KEY_TOKEN)
+
 
 
 #
